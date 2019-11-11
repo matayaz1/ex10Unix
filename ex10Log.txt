@@ -1,0 +1,86 @@
+Script started on Mon Nov 11 13:06:11 2019
+[?1034hbash-3.2$ ld[Ks
+courses.txt	ex10Log.txt
+bash-3.2$ ls -l
+total 16
+-rw-r--r--  1 matayaz1  LIONS\Domain Users  71 Nov 11 13:12 courses.txt
+-rw-r--r--  1 matayaz1  LIONS\Domain Users  62 Nov 11 13:12 ex10Log.txt
+bash-3.2$ ls -a
+.		..		courses.txt	ex10Log.txt
+bash-3.2$ ls -al
+total 16
+drwxr-xr-x   4 matayaz1  LIONS\Domain Users   136 Nov 11 13:12 .
+drwxr-xr-x+ 46 matayaz1  LIONS\Domain Users  1564 Nov 11 13:12 ..
+-rw-r--r--   1 matayaz1  LIONS\Domain Users    71 Nov 11 13:12 courses.txt
+-rw-r--r--   1 matayaz1  LIONS\Domain Users   327 Nov 11 13:13 ex10Log.txt
+bash-3.2$ wc courses.txt
+      12      17      71 courses.txt
+bash-3.2$ whoami
+matayaz1
+bash-3.2$ isers
+bash: isers: command not found
+bash-3.2$ users
+matayaz1
+bash-3.2$ whp[Ko
+matayaz1 console  Nov 11 12:34 
+matayaz1 ttys000  Nov 11 13:02 
+matayaz1 ttys002  Nov 11 13:06 
+bash-3.2$ grep "CSC" cu[Kourses.txt
+CSC 220
+CSC 099
+CSC 270
+CSC 230
+bash-3.2$ grep "1" courses.txt
+MAT 127
+FSP 161
+ECO 115
+WRI 102
+bash-3.2$ grep "A" courses.txt
+MAT 127
+TBA
+bash-3.2$ ls =[K-a | grep "Nov" [K | cat
+bash-3.2$ ls -a[Kl | grep "Nov" [K | cat
+-rw-r--r--  1 matayaz1  LIONS\Domain Users    71 Nov 11 13:12 courses.txt
+-rw-r--r--  1 matayaz1  LIONS\Domain Users  1145 Nov 11 13:23 ex10Log.txt
+bash-3.2$ cat courses.txt
+MAT 127
+CSC 220
+CSC 099
+FSP 161
+ECO 115
+
+CSC 270
+CSC 230
+WRI 102
+TBA
+
+
+bash-3.2$ ls *.txtx[K
+courses.txt	ex10Log.txt
+bash-3.2$ echo "Hi"
+Hi
+bash-3.2$ echo "Raom[K[K[K[K[K"[K"K+[K[KHello"
+Hello
+bash-3.2$ echo "Hello"[3Pi"[1Pls *.txtecho "Hi"ello"[C[C[C[C[C[C[C[C[C[C[Kecho "Hello"[C[C[C[C[C[C[C[C[C[C[K$te[K[KTE,[[K[KMP="Hello World"[1P[1@\[1P
+bash-3.2$ echp [K[Ko t[KTE<[KMP
+TEMP
+bash-3.2$ echo TEMP[C$TEMP
+Hello World
+bash-3.2$ echo Hello
+Hello
+bash-3.2$ ./myFirstD[KScript.sh
+Hello World
+bash-3.2$ ./,[KmyFirstScript.sh
+Hello World
+total 24
+-rw-r--r--  1 matayaz1  LIONS\Domain Users    71 Nov 11 13:12 courses.txt
+-rw-r--r--  1 matayaz1  LIONS\Domain Users  2052 Nov 11 13:41 ex10Log.txt
+-rwxr--r--  1 matayaz1  LIONS\Domain Users    94 Nov 11 13:44 myFirstScript.sh
+CSC 220
+CSC 099
+CSC 270
+CSC 230
+bash-3.2$ exit
+exit
+
+Script done on Mon Nov 11 13:45:27 2019
